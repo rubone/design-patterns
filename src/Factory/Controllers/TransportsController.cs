@@ -1,6 +1,5 @@
 using Factory.Constants;
 using Factory.Factory;
-using Factory.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Factory.Controllers;
@@ -17,9 +16,9 @@ public class TransportsController : ControllerBase
     }
 
     [HttpGet]
-    public IActionResult Get(TransportType trasportType)
+    public IActionResult Get(TransportType transportType)
     {
-        ITransport transport = _factory.CreateTransport(trasportType);
+        var transport = _factory.CreateTransport(transportType);
         
         return Ok(transport.ToString());
     }
