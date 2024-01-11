@@ -23,6 +23,7 @@ Select a project
 
 - [Factory Pattern](https://github.com/rubone/design-patterns/tree/main/src/Factory)
 - [Repository Pattern](https://github.com/rubone/design-patterns/tree/main/src/Factory)
+- [Singleton Pattern](https://github.com/rubone/design-patterns/tree/main/src/Singleton)
 
 **Step 3:**
 
